@@ -1,0 +1,15 @@
+input:invalid + .invalid {
+    visibility: visible;
+}
+input:valid + .invalid {
+    visibility: hidden!important;
+}
+.invalid{
+    margin-top:0px;
+    margin-bottom:4px;
+    font-size:0.8em;
+}
+
+input:valid {
+    border:2px solid #203299;
+}
